@@ -1,0 +1,78 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Page Background */
+body {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main Box */
+.container {
+    background: #ffffff;
+    padding: 35px 30px;
+    width: 420px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 0 25px rgba(0,0,0,0.3);
+}
+
+/* Headings */
+.container h1 {
+    color: #ff7b00;
+    margin-bottom: 10px;
+}
+
+.container h3 {
+    color: #444;
+    margin-bottom: 20px;
+}
+
+/* Form */
+.form-box input {
+    width: 100%;
+    padding: 12px;
+    margin: 7px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+/* Input Focus */
+.form-box input:focus {
+    outline: none;
+    border-color: #ff7b00;
+}
+
+/* Button */
+.form-box button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 12px;
+    background: #ff7b00;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-box button:hover {
+    background: #e56b00;
+}
+
+/* Result */
+.result {
+    margin-top: 20px;
+    color: green;
+    font-weight: bold;
+}
